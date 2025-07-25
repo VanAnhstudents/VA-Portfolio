@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #0f1419 0%, #1a2332 100%);
+    color: #ccd6e6;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.back-link {
+    color: #64ffda;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.back-link:hover {
+    color: #ffffff;
+}
+
+.back-link::before {
+    content: "← ";
+    margin-right: 5px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: #ccd6e6;
+}
+
+.projects-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.projects-table th {
+    text-align: left;
+    padding: 20px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #8892b0;
+    border-bottom: 1px solid #233554;
+}
+
+.projects-table td {
+    padding: 25px 15px;
+    border-bottom: 1px solid #233554;
+    vertical-align: middle;
+}
+
+.projects-table tr:hover {
+    background-color: rgba(100, 255, 218, 0.05);
+    transition: background-color 0.3s ease;
+}
+
+.year {
+    color: #64ffda;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.project-name {
+    color: #ccd6e6;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.tech-tag {
+    display: inline-block;
+    background: rgba(100, 255, 218, 0.1);
+    color: #64ffda;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 2px 4px 2px 0;
+    border: 1px solid rgba(100, 255, 218, 0.3);
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.link-cell {
+    text-align: right;
+}
+
+.project-link {
+    color: #8892b0;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: #64ffda;
+}
+
+.project-link::after {
+    content: " ↗";
+    margin-left: 5px;
+}
+
+.status {
+    color: #8892b0;
+    font-size: 14px;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .projects-table {
+        font-size: 14px;
+    }
+
+    .projects-table th,
+    .projects-table td {
+        padding: 15px 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+
+    .tech-tags {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .projects-table th:nth-child(1),
+    .projects-table td:nth-child(1) {
+        display: none;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+}
