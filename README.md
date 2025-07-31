@@ -19,20 +19,6 @@
 - **JavaScript** - Xử lý tương tác
 - **SVG** - Các icon biểu tượng
 
-## 📂 Cấu Trúc Thư Mục
-
-portfolio/
-   index.html     
-   projects.html      
-   assets/
-      style.css       
-      projects.css   
-      responsive.css  
-      main.js        
-   README.md         
-   resume.pdf        
-
-
 ## 🚀 Cách Chạy Dự Án
 1. Clone repository:
    ```bash
