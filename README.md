@@ -22,15 +22,15 @@
 ## 📂 Cấu Trúc Thư Mục
 
 portfolio/
-├── index.html          # Main portfolio page
-├── projects.html       # Full projects archive
-├── assets/
-│   ├── style.css       # Main stylesheet
-│   ├── projects.css    # Projects page styles
-│   ├── responsive.css  # Responsive styles
-│   └── main.js         # JavaScript functionality
-├── README.md           # This file
-└── resume.pdf          # Downloadable resume
+   index.html     
+   projects.html      
+   assets/
+      style.css       
+      projects.css   
+      responsive.css  
+      main.js        
+   README.md         
+   resume.pdf        
 
 
 ## 🚀 Cách Chạy Dự Án
@@ -47,6 +47,6 @@ portfolio/
 [Xem portfolio trực tuyến]()
 
 ## 📬 Liên Hệ
-Email: anhnguyenvan280105@gmail.com
-GitHub: [VanAnhstudents](https://github.com/VanAnhstudents)
-Facebook: [Anh Nguyễn Văn](https://www.facebook.com/anhnguyenvan280105)
+- Email: anhnguyenvan280105@gmail.com
+- GitHub: [VanAnhstudents](https://github.com/VanAnhstudents)
+- Facebook: [Anh Nguyễn Văn](https://www.facebook.com/anhnguyenvan280105)
